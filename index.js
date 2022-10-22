@@ -234,11 +234,11 @@ Use getArtistByIndex to do the following:
 
 🌟 EXAMPLE: if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(/*Your Code Here*/) {
-  /*Your Code Here*/
+function getArtistByIndex(array, number) {
+  return `the artist at index ${array[number].id} is ${array[number].name}`;
 }
 
-
+console.log('task 3:', getArtistByIndex(artists, 0));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use listOfNames to do the following:
@@ -248,7 +248,7 @@ Use listOfNames to do the following:
 🌟 EXAMPLE of return: ["Amedeo Modigliani", "Vasiliy Kandinskiy", "Diego Rivera"....]
 */
 
-function listOfNames(/*Your Code Here*/) {
+function listOfNames() {
   /*Your Code Here*/
 }
 
