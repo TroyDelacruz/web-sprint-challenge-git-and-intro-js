@@ -358,10 +358,16 @@ Use artistByCountry to do the following:
 */
 
 function artistByCountry(array, nationality){
-  /*Your Code Here*/
+  const artistFromCountry= [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].nationality == nationality) {
+      artistFromCountry.push(array[i].name)
+    }
+  }
+  return artistFromCountry;
 }
 
-
+console.log(artistByCountry(artists, 'Spanish'));
 
 /* ***** END OF TASKS ***** */
 
